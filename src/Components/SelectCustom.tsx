@@ -1,4 +1,4 @@
-import {ICustomSelect} from "../Types/ButtonType.ts";
+import {ICustomSelect} from "../Types/ButtonTypes.ts";
 
 export const SelectCustom = ({name}: ICustomSelect) => {
     return (

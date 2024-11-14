@@ -1,4 +1,4 @@
-import {ICustomButton} from "../Types/ButtonType.ts";
+import {ICustomButton} from "../Types/ButtonTypes.ts";
 
 
 export const CustomButton = ({name}: ICustomButton) => {
@@ -6,7 +6,6 @@ export const CustomButton = ({name}: ICustomButton) => {
         <button>
             <div className="text-base font-medium text-lg">
             {name}
-
             </div>
         </button>
     );
